@@ -1,7 +1,12 @@
-version: '1.0'
+version: 1.0.1
 history:
-  '1.0':
+  1.0.1:
+    date: '2021-08-12'
+    title: 'Manifest'
+    description: 'Manifest versions fix.'
+  1.0.0:
     date: '2019-01-29'
+    title: 'First version'
     description: 'First version.'
 plugin: {  }
 sys:
