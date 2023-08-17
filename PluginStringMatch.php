@@ -7,7 +7,7 @@ class PluginStringMatch{
    * @return int If no match returns 0.
    */
   public function wildcard($wildcard_pattern, $haystack){
-     $regex = str_replace(
+     $regex = wfPhpfunc::str_replace(
        array("\*", "\?"), // wildcard chars
        array('.*','.'),   // regexp chars
        preg_quote($wildcard_pattern)
